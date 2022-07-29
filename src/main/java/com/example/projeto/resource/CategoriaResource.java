@@ -12,7 +12,7 @@ import com.example.projeto.domain.Categoria;
 @RestController
 @RequestMapping(value="/categoria")
 public class CategoriaResource {
-	
+	 
 	//devido ao uso simples do uso, queremo só 
 	@RequestMapping(method=RequestMethod.GET)
 	public List<Categoria> lista() {
